@@ -1,0 +1,13 @@
+name: musli
+version: 0.1.0
+
+authors:
+  - Niels Nielsen <slein.nroh@gmail.com>
+
+targets:
+  musli:
+    main: src/musli.cr
+
+crystal: 0.27.0
+
+license: MIT
