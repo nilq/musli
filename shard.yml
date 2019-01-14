@@ -2,7 +2,7 @@ name: musli
 version: 0.1.0
 
 authors:
-  - Niels Nielsen <slein.nroh@gmail.com>
+  - Niels Nielsen
 
 targets:
   musli:
@@ -10,4 +10,14 @@ targets:
 
 crystal: 0.27.0
 
-license: MIT
+license: Unlicense
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+  kilt:
+    github: jeromegn/kilt
+  
+  slang:
+    github: jeromegn/slang
